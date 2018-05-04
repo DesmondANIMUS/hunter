@@ -1,0 +1,14 @@
+schema {
+  query: LinkQuery
+}
+
+type Link {
+  _id: String
+  title: String
+  url: String
+}
+
+type LinkQuery {
+  links: [Link]
+}
+
